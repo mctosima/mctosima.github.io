@@ -1,0 +1,12 @@
+// Add this in _custom.scss or similar file
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    // Add more styling as needed
+}
