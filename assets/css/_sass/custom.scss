@@ -10,3 +10,16 @@
     padding: 10px;
     // Add more styling as needed
 }
+.student-image {
+    max-width: 100%; /* ensures the image is not wider than its container */
+    height: auto; /* maintains the aspect ratio */
+    display: block; /* prevents inline default behavior */
+    margin-bottom: 1px;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%; /* each column takes full width on small screens */
+        margin-bottom: 20px; /* add some space between columns */
+    }
+}
+
