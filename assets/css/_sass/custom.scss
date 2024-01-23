@@ -11,10 +11,11 @@
     // Add more styling as needed
 }
 .student-image {
-    max-width: 100%; /* ensures the image is not wider than its container */
-    height: auto; /* maintains the aspect ratio */
-    display: block; /* prevents inline default behavior */
+    height: 200px; /* Fixed height */
+    width: auto; /* Width adjusts proportionally */
+    display: block;
     margin-bottom: 1px;
+    object-fit: cover; /* Ensures the image covers the area without stretching */
 }
 @media screen and (max-width: 600px) {
     .column {
