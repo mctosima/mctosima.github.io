@@ -34,7 +34,7 @@ published: true
         <p style="font-size: 12px; margin-top: 5px;">Transfer Learning untuk Pendeteksi Masker Wajah pada Citra Termal Untuk Kasus Pengukuran Respirasi Non Kontak</p>
     </div>
     <div class="column">
-        <img src="{{'/assets/images/studentimage/reza.png' | prepend: site.baseurl }}" alt="Reza" class="student-image">
+        <img src="{{'/assets/images/studentimage/rezaa.png' | prepend: site.baseurl }}" alt="Reza" class="student-image">
         <p style="font-size: 16px; margin-bottom: 5px; margin-top: 0px"><strong>Reza Octaviany</strong></p>
         <p style="font-size: 12px; margin-top: 5px;">Sistem Kontrol Kesuburan Tanaman Hidroponik Otomatis menggunakan Artificial Neural Network</p>
     </div>
