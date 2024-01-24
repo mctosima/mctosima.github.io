@@ -9,6 +9,6 @@ published: true
 
 Dedicating my life to live in the world of technology as a researcher and academician. Having an interest in the field of human related technology, especially in healthcare domain.
 
-Also pursue and make money from photography, videography, music composition, audio mixing and mastering, and other audio-visual related matters.
+An avid music enthusiast, dedicating my free time to the serious craft of music production, composition, arrangement, mixing, and mastering.
 
-Live in a productive ecosystem, love automation and planning at work and leverage technology for productivity. Practicing gospel of the bible.~~
+Live in a productive ecosystem, love automation and planning at work and leverage technology for productivity. Practicing gospel of the bible.~

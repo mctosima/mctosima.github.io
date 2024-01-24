@@ -1,10 +1,10 @@
 ### your site title here
 
-title: Martin Clinton Tosima Manullang
-description: A Computer Vision Researcher, Tech-savvy, and A/V enthusiast
+title: Martin Manullang
+description: Computer Vision Researcher & Tech-savvy
 
 baseurl:  #name of GitHub repository
-url: "https://mctm.web.id/students/"
+url: "https://mctm.web.id/"
 email: "mctosima@gmail.com"
 
 # Pagination
