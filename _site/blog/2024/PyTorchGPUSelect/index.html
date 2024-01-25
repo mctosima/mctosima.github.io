@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+        <h1 class="post-headline">Martin Manullang</h1>
+        <h3 class="post-description">Computer Vision Researcher & Tech-savvy</h3>
+
+        <div class="links scroll">
+        <a href="/">Home</a>
+        <a href="/resume/">Resume</a>
+        <a href="/course/">Course</a>
+        <a href="/students/">Students</a>
+        <a href="/contact/">Contact</a>
+        <a href="/blog/">Blog</a>
+        <a href="/archive/">Archive</a>
+</div>
+
+
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Simplifying PyTorch Device Selection | Martin Manullang</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Simplifying PyTorch Device Selection" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Simplifying Device Selection in PyTorch: Auto-Selecting the Best Available GPU or CPU" />
+<meta property="og:description" content="Simplifying Device Selection in PyTorch: Auto-Selecting the Best Available GPU or CPU" />
+<link rel="canonical" href="http://localhost:4000/blog/2024/PyTorchGPUSelect/" />
+<meta property="og:url" content="http://localhost:4000/blog/2024/PyTorchGPUSelect/" />
+<meta property="og:site_name" content="Martin Manullang" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-01-25T00:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Simplifying PyTorch Device Selection" />
+<meta name="twitter:site" content="@" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-25T00:00:00+08:00","datePublished":"2024-01-25T00:00:00+08:00","description":"Simplifying Device Selection in PyTorch: Auto-Selecting the Best Available GPU or CPU","headline":"Simplifying PyTorch Device Selection","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2024/PyTorchGPUSelect/"},"url":"http://localhost:4000/blog/2024/PyTorchGPUSelect/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+        <!-- Generated using https://favicon.io/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?">
+<link rel="manifest" href=site.webmanifest">
+
+
+        <!-- MathJax -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+     processEscapes: true
+    }
+  });
+</script>
+
+
+        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    </head>
+
+    <body>
+        <main>
+            <article>
+                <h1 class="post-headline">Simplifying PyTorch Device Selection</h1>
+<p class="meta"><small>January 25, 2024</small></p>
+
+<h1 id="simplifying-device-selection-in-pytorch-auto-selecting-the-best-available-gpu-or-cpu">Simplifying Device Selection in PyTorch: Auto-Selecting the Best Available GPU or CPU</h1>
+
+<p>Welcome to my latest blog post! As a PyTorch enthusiast, I’m excited to share a neat little snippet of code that I’ve found incredibly useful in my own deep learning projects. It’s all about making the process of selecting the right processing device (GPU or CPU) as effortless as possible in PyTorch. Whether you’re a seasoned pro or just starting out, this is something that can save you time and hassle.</p>
+
+<h3 id="the-problem">The Problem</h3>
+
+<p>If you’ve spent any time working with PyTorch, you know that selecting the right device for your operations can be a bit of a manual process. You might have to write extra lines of code to check if a GPU is available, and if not, default back to using the CPU. This can be especially cumbersome when you’re testing your models on different machines with different hardware capabilities.</p>
+
+<h3 id="the-solution-check_set_gpu">The Solution: <code class="language-plaintext highlighter-rouge">check_set_gpu</code>
+</h3>
+
+<p>That’s where my function <code class="language-plaintext highlighter-rouge">check_set_gpu</code> comes into play. This Python function automatically checks for the best available device - a GPU if one is available, or the Apple Metal Performance Shaders (MPS) fallback if you’re on an MPS-enabled machine, or simply the CPU if that’s all that’s available.</p>
+
+<p>Here’s how it works:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">torch</span>
+
+<span class="k">def</span> <span class="nf">check_set_gpu</span><span class="p">(</span><span class="n">override</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">override</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">torch</span><span class="p">.</span><span class="n">cuda</span><span class="p">.</span><span class="nf">is_available</span><span class="p">():</span>
+            <span class="n">device</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">device</span><span class="p">(</span><span class="sh">'</span><span class="s">cuda</span><span class="sh">'</span><span class="p">)</span>
+            <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Using GPU: </span><span class="si">{</span><span class="n">torch</span><span class="p">.</span><span class="n">cuda</span><span class="p">.</span><span class="nf">get_device_name</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">torch</span><span class="p">.</span><span class="n">backends</span><span class="p">.</span><span class="n">mps</span><span class="p">.</span><span class="nf">is_available</span><span class="p">():</span>
+            <span class="n">device</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">device</span><span class="p">(</span><span class="sh">'</span><span class="s">mps</span><span class="sh">'</span><span class="p">)</span>
+            <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Using MPS: </span><span class="si">{</span><span class="n">torch</span><span class="p">.</span><span class="n">backends</span><span class="p">.</span><span class="n">mps</span><span class="p">.</span><span class="nf">is_available</span><span class="p">()</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">device</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">device</span><span class="p">(</span><span class="sh">'</span><span class="s">cpu</span><span class="sh">'</span><span class="p">)</span>
+            <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Using CPU: </span><span class="si">{</span><span class="n">torch</span><span class="p">.</span><span class="nf">device</span><span class="p">(</span><span class="sh">'</span><span class="s">cpu</span><span class="sh">'</span><span class="p">)</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">device</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">device</span><span class="p">(</span><span class="n">override</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">device</span>
+</code></pre></div></div>
+
+<h3 id="how-to-use-it">How to Use It</h3>
+
+<p>Simply call <code class="language-plaintext highlighter-rouge">check_set_gpu()</code> in your code. The function will automatically detect and set the best available device. If you want to override the automatic selection and specify a particular device, just pass it as an argument like <code class="language-plaintext highlighter-rouge">check_set_gpu('cuda')</code> or <code class="language-plaintext highlighter-rouge">check_set_gpu('cpu')</code>.</p>
+
+<h3 id="benefits">Benefits</h3>
+
+<ul>
+  <li>
+<strong>Saves Time</strong>: No more manual checking for device availability.</li>
+  <li>
+<strong>Flexibility</strong>: Works across various hardware setups without any code changes.</li>
+  <li>
+<strong>Ease of Use</strong>: A simple function call does all the work.</li>
+</ul>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>I hope you find this function as useful as I have in streamlining your PyTorch workflows. It’s a small piece of code, but it’s one of those quality-of-life improvements that can make a big difference. Happy coding, and stay tuned for more tips and tricks!</p>
+
+
+<!-- Comments only for posts -->
+
+    
+
+
+            </article>
+        </main>
+
+        <footer>
+          <p class="copy">
+            <small> © Martin Manullang 2024
+                    | Powered by Jekyll and
+                    <a target="_blank" href="https://github.com/jitinnair1/gradfolio/" rel="noopener noreferrer">Gradfolio</a>.
+                    Last updated on 25 January 2024
+            </small>
+          </p>
+
+        <div class="rounded-social-buttons">
+<a title="" class="social-button email" itemprop="email" href="mailto:%6D%63%74%6F%73%69%6D%61@%67%6D%61%69%6C.%63%6F%6D" target="_blank">
+<i class="far fa-envelope"></i>
+</a><a title="" class="social-button linkedin" href="https://www.linkedin.com/in/mctosima" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-linkedin"></i>
+</a><a title="" class="social-button github" href="https://www.github.com/mctosima" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-github"></i>
+</a><a title="" class="social-button orcid" href="https://orcid.org/0000-0002-7437-0851" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-orcid"></i>
+</a><a title="" class="social-button twitter" href="https://www.twitter.com/mctosima_" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-twitter"></i>
+</a><a title="" class="social-button instagram" itemprop="sameAs" href="https://www.instagram.com/mctosima" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-instagram"></i>
+</a>
+</div>
+
+
+        </footer>
+
+        <!-- Google Analytics Tracking code -->
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = '';
+</script>
+
+    </body>
+
+</html>
