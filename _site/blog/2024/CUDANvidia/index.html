@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+        <h1 class="post-headline">Martin Manullang</h1>
+        <h3 class="post-description">Computer Vision Researcher & Tech-savvy</h3>
+
+        <div class="links scroll">
+        <a href="/">Home</a>
+        <a href="/resume/">Resume</a>
+        <a href="/course/">Course</a>
+        <a href="/students/">Students</a>
+        <a href="/contact/">Contact</a>
+        <a href="/blog/">Blog</a>
+        <a href="/archive/">Archive</a>
+</div>
+
+
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Resintall CUDA and NVidia drivers | Martin Manullang</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Resintall CUDA and NVidia drivers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I posted this since many people asked me how to reinstall CUDA and Nvidia drivers properly. This tutorials never failed me." />
+<meta property="og:description" content="I posted this since many people asked me how to reinstall CUDA and Nvidia drivers properly. This tutorials never failed me." />
+<link rel="canonical" href="http://localhost:4000/blog/2024/CUDANvidia/" />
+<meta property="og:url" content="http://localhost:4000/blog/2024/CUDANvidia/" />
+<meta property="og:site_name" content="Martin Manullang" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-01-22T00:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Resintall CUDA and NVidia drivers" />
+<meta name="twitter:site" content="@" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-22T00:00:00+08:00","datePublished":"2024-01-22T00:00:00+08:00","description":"I posted this since many people asked me how to reinstall CUDA and Nvidia drivers properly. This tutorials never failed me.","headline":"Resintall CUDA and NVidia drivers","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2024/CUDANvidia/"},"url":"http://localhost:4000/blog/2024/CUDANvidia/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+        <!-- Generated using https://favicon.io/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?">
+<link rel="manifest" href=site.webmanifest">
+
+
+        <!-- MathJax -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+     processEscapes: true
+    }
+  });
+</script>
+
+
+        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    </head>
+
+    <body>
+        <main>
+            <article>
+                <h1 class="post-headline">Resintall CUDA and NVidia drivers</h1>
+<p class="meta"><small>January 22, 2024</small></p>
+
+<p>I posted this since many people asked me how to reinstall CUDA and Nvidia drivers properly. This tutorials never failed me.</p>
+
+<p><strong>Important Considerations</strong></p>
+<blockquote>
+  <p>The CUDA version displayed by <code class="language-plaintext highlighter-rouge">nvidia-smi</code> doesn’t necessarily reflect the CUDA version used in your PyTorch.</p>
+
+  <p><code class="language-plaintext highlighter-rouge">nvidia-smi</code> and <code class="language-plaintext highlighter-rouge">nvcc</code> report different versions because they serve different purposes. <code class="language-plaintext highlighter-rouge">nvidia-smi</code> indicates the highest CUDA version supported/installed by your driver, while <code class="language-plaintext highlighter-rouge">nvcc -V</code> reveals the CUDA installation version your terminal points to. Generally, if <code class="language-plaintext highlighter-rouge">nvidia-smi</code> shows a CUDA version equal to or higher than that of <code class="language-plaintext highlighter-rouge">nvcc -V</code>, there’s no need for concern. This discrepancy is typical, as newer drivers can support older CUDA toolkits.</p>
+</blockquote>
+
+<p><strong>Checking CUDA Version</strong></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nvcc <span class="nt">-V</span>
+</code></pre></div></div>
+
+<p><strong>Reinstalling Driver and CUDA to a Specific Version</strong></p>
+<ol>
+  <li>Switch to tty3: Press Ctrl + Alt + F3.</li>
+  <li>Unload <code class="language-plaintext highlighter-rouge">nvidia-drm</code>:
+    <ul>
+      <li>Switch to multi-user.target:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>systemctl isolate multi-user.target
+</code></pre></div>        </div>
+      </li>
+      <li>Check if nvidia-drm is in use:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code> lsmod | <span class="nb">grep </span>nvidia.drm
+</code></pre></div>        </div>
+      </li>
+      <li>Unload nvidia-drm:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>modprobe <span class="nt">-r</span> nvidia-drm
+</code></pre></div>        </div>
+      </li>
+      <li>Confirm nvidia-drm is unloaded:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code> lsmod | <span class="nb">grep </span>nvidia.drm
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>Remove existing CUDA and NVIDIA Drivers:
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>apt <span class="nt">--purge</span> remove <span class="s2">"cublas*"</span> <span class="s2">"cuda*"</span> <span class="s2">"nvidia*"</span>
+ <span class="nb">sudo rm</span> <span class="nt">-rf</span> /usr/local/cuda<span class="k">*</span>
+ <span class="nb">sudo </span>apt-get autoremove <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt-get autoclean
+</code></pre></div>    </div>
+  </li>
+  <li>Reboot and repeat step 2.</li>
+  <li>Install the NVIDIA Driver:
+    <ul>
+      <li>Download the driver from <a href="https://www.nvidia.com/Download/index.aspx?lang=en-us" target="_blank" rel="noopener noreferrer">NVIDIA’s website</a>.</li>
+      <li>Log out from the GUI and switch to a terminal (Ctrl + Alt + F2 or F3).</li>
+      <li>Stop the current X-Server:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>service lightdm stop
+</code></pre></div>        </div>
+      </li>
+      <li>Enter runlevel 3:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>init 3
+</code></pre></div>        </div>
+      </li>
+      <li>Navigate to the directory containing the downloaded installer.</li>
+      <li>Make the installer executable:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">chmod</span> +x ./your-nvidia-file.run
+</code></pre></div>        </div>
+      </li>
+      <li>Run the installer:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">sudo</span> ./your-nvidia-file.run
+</code></pre></div>        </div>
+      </li>
+      <li>Reboot your system.</li>
+    </ul>
+  </li>
+  <li>Download and Install a Specific CUDA Version:
+    <ul>
+      <li>Follow the installation procedure outlined here: <a href="https://developer.nvidia.com/cuda-11-8-0-download-archive" target="_blank" rel="noopener noreferrer">CUDA Installation Guide</a>.</li>
+      <li>It’s recommended to use the network installer.</li>
+      <li>Remember to specify the version during installation:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nt">-y</span> <span class="nb">install </span>cuda-11.8
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>Set Environment Variables:
+    <ul>
+      <li>Adjust for your CUDA version and shell (e.g., bash, zsh). Check your shell with <code class="language-plaintext highlighter-rouge">echo $0</code>.</li>
+      <li>Add these lines to your shell configuration file:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s1">'export PATH=/usr/local/cuda-11.8/bin:$PATH'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nb">echo</span> <span class="s1">'export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>Reboot your system.</li>
+  <li>Install CuDNN (Optional):
+    <ul>
+      <li>Download from the <a href="https://developer.nvidia.com/rdp/cudnn-archive" target="_blank" rel="noopener noreferrer">CuDNN Archive</a>.</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>References</strong></p>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=5eJTzhGe2QE" target="_blank" rel="noopener noreferrer">YouTube Tutorial</a></li>
+  <li><a href="https://unix.stackexchange.com/questions/440840/how-to-unload-kernel-module-nvidia-drm" target="_blank" rel="noopener noreferrer">Unix StackExchange Discussion on Unloading nvidia-drm</a></li>
+  <li><a href="https://askubuntu.com/questions/149206/how-to-install-nvidia-run" target="_blank" rel="noopener noreferrer">AskUbuntu on Installing NVIDIA .run Files</a></li>
+</ul>
+
+
+<!-- Comments only for posts -->
+
+    
+
+
+            </article>
+        </main>
+
+        <footer>
+          <p class="copy">
+            <small> © Martin Manullang 2024
+                    | Powered by Jekyll and
+                    <a target="_blank" href="https://github.com/jitinnair1/gradfolio/" rel="noopener noreferrer">Gradfolio</a>.
+                    Last updated on 25 January 2024
+            </small>
+          </p>
+
+        <div class="rounded-social-buttons">
+<a title="" class="social-button email" itemprop="email" href="mailto:%6D%63%74%6F%73%69%6D%61@%67%6D%61%69%6C.%63%6F%6D" target="_blank">
+<i class="far fa-envelope"></i>
+</a><a title="" class="social-button linkedin" href="https://www.linkedin.com/in/mctosima" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-linkedin"></i>
+</a><a title="" class="social-button github" href="https://www.github.com/mctosima" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-github"></i>
+</a><a title="" class="social-button orcid" href="https://orcid.org/0000-0002-7437-0851" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-orcid"></i>
+</a><a title="" class="social-button twitter" href="https://www.twitter.com/mctosima_" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-twitter"></i>
+</a><a title="" class="social-button instagram" itemprop="sameAs" href="https://www.instagram.com/mctosima" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-instagram"></i>
+</a>
+</div>
+
+
+        </footer>
+
+        <!-- Google Analytics Tracking code -->
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = '';
+</script>
+
+    </body>
+
+</html>
