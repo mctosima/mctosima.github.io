@@ -9,7 +9,7 @@ published: true
 
 # Resume
 
-> Hi, I am Martin. I am currently pursuing a doctoral program at the [Electronics and Computer Engineering Department](https://www.ceecs.ntust.edu.tw/), [NTUST](https://ntust.edu.tw/). I'm also a faculty member of [Program Studi Teknik Informatika](http://if.itera.ac.id/), Institut Teknologi Sumatera ([ITERA](http://itera.ac.id/)), a state engineering university fostered by the Institut Teknologi Bandung, located in Lampung.
+> Hi, I am Martin. I am currently pursuing a doctoral program at the [Electronics and Computer Engineering Department](https://www.ceecs.ntust.edu.tw/), [NTUST](https://ntust.edu.tw/). I'm also a faculty member of [Program Studi Teknik Informatika](http://if.itera.ac.id/), Institut Teknologi Sumatera ([ITERA](http://itera.ac.id/)), a state engineering university located in Lampung.
 > 
 
 - **Full Name :** Martin Clinton Tosima Manullang, S.T., M.T.
