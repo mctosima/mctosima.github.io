@@ -29,23 +29,12 @@ published: true
 - Doctoral : Currently Enrolled in Ph.D. Program - Department of Electronics and Computer Engineering, National Taiwan University of Science and Technology
 
 # Research Interest
-
-Human-centered applications, especially in the health domain
-
-## Current Project :
-
-"Non Contact Physiological Measurement Using Thermal Infrared Camera"
-
-## Goals :
-
-To monitor the vital signs of the human body (blood pressure, heart rate, body temperature, and respiratory rate) with a non-contact minimal invasive method, using a thermal infrared camera.
+Human-centered applications, healthcare technology, multimedia processing, computer vision
 
 # Academic Society
 
 - [IEEE Member - Indonesia Section : Member ID 97343923](https://ieee.id/home-page/)
 - [IEEE Engineering in Medicine and Biology Society Membership](http://www.embs.org)
-- Ikatan Ahli Informatika Indonesia : Member ID 20.10.01006
-- Member of APTIKOM (Computer College Association) : Member ID AP-08.00173
 
 ---
 
