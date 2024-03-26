@@ -11,6 +11,24 @@ published: true
 
 <div class="columns">
     <div class="column">
+        <img src="{{'/assets/images/studentimage/fahri.jpg' | prepend: site.baseurl }}" alt="Fahri Novaldi" class="student-image">
+        <p style="font-size: 16px; margin-bottom: 5px; margin-top: 0px"><strong>Fahri Novaldi</strong></p>
+        <p style="font-size: 12px; margin-top: 5px;">Pemanfaatan Generative Network: Peningkatan Kualitas Citra Digital dengan Pendekatan Super-Resolution</p>
+    </div>
+    <div class="column">
+        <!-- <img src="{{'/assets/images/studentimage/najie.jpg' | prepend: site.baseurl }}" alt="Najie" class="student-image">
+        <p style="font-size: 16px; margin-bottom: 5px; margin-top: 0px"><strong>Muhammad Najie</strong></p>
+        <p style="font-size: 12px; margin-top: 5px;">Pengembangan Perangkat Lunak Pengukuran Laju Pernapasan Secara Non Kontak Memanfaatkan Kamera Termal</p> -->
+    </div>
+    <div class="column">
+        <!-- <img src="{{'/assets/images/studentimage/lukassandy.jpg' | prepend: site.baseurl }}" alt="Lukas" class="student-image">
+        <p style="font-size: 16px; margin-bottom: 5px; margin-top: 0px"><strong>Lukas Sandy</strong></p>
+        <p style="font-size: 12px; margin-top: 5px;">Perhitungan Frekuensi dan Variabilitas Respirasi Non-Kontak Pada Video Termal Menggunanakan Algoritma Zero Crossing dan Local Maxima</p> -->
+    </div>
+</div>
+
+<div class="columns">
+    <div class="column">
         <img src="{{'/assets/images/studentimage/rini.jpg' | prepend: site.baseurl }}" alt="Istighfariza Aprini" class="student-image">
         <p style="font-size: 16px; margin-bottom: 5px; margin-top: 0px"><strong>Istighfariza Aprini</strong></p>
         <p style="font-size: 12px; margin-top: 5px;">Pengukuran Frekuensi Detak Jantung Secara Non-Kontak (Remote Photopletysmography) Menggunakan Citra RGB</p>
