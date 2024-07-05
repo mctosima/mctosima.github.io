@@ -5,6 +5,9 @@ permalink: /course/
 published: true
 ---
 
+# 2024/2025 Courses
+- [IF4021 Multimedia Technology](/course/if4021)
+
 To view the courses from previous website, please visit [this link](https://mctosima.notion.site/Course-fc332b97ad604458bced22e09bb0cb36)
 
 <!-- <div class="ProjectContainer">
