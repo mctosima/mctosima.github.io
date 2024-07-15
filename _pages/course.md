@@ -7,6 +7,7 @@ published: true
 
 # 2024/2025 Courses
 - [IF4021 Multimedia Technology](/course/if4021)
+- [IF3024 Digital Signal Processing](/course/if3024)
 
 To view the courses from previous website, please visit [this link](https://mctosima.notion.site/Course-fc332b97ad604458bced22e09bb0cb36)
 
