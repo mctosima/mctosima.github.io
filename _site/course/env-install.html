@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+        <h1 class="post-headline">Martin Manullang</h1>
+        <h3 class="post-description">Computer Vision Researcher & Tech-savvy</h3>
+
+        <div class="links scroll">
+        <a href="/">Home</a>
+        <a href="/resume/">Resume</a>
+        <a href="/course/">Course</a>
+        <a href="/students/">Students</a>
+        <a href="/contact/">Contact</a>
+        <!-- <a href="/blog/">Blog</a> -->
+        <a href="/archive/">Blog</a>
+        <a href="/tech/">My Tech</a>
+</div>
+
+
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Instalasi Lingkungan Python | Martin Manullang</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Instalasi Lingkungan Python" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Computer Vision Researcher &amp; Tech-savvy" />
+<meta property="og:description" content="Computer Vision Researcher &amp; Tech-savvy" />
+<link rel="canonical" href="http://localhost:4000/course/env-install" />
+<meta property="og:url" content="http://localhost:4000/course/env-install" />
+<meta property="og:site_name" content="Martin Manullang" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Instalasi Lingkungan Python" />
+<meta name="twitter:site" content="@" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Computer Vision Researcher &amp; Tech-savvy","headline":"Instalasi Lingkungan Python","url":"http://localhost:4000/course/env-install"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+        <!-- Generated using https://favicon.io/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?">
+<link rel="manifest" href=site.webmanifest">
+
+
+        <!-- MathJax -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+     processEscapes: true
+    }
+  });
+</script>
+
+
+        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    </head>
+
+    <body>
+        <main>
+            <article>
+                <p><strong>Table of Contents</strong></p>
+<ol>
+  <li><a href="#panduan-instalasi-anaconda">Panduan Instalasi Anaconda</a></li>
+  <li><a href="#instalasi-vscode-dan-extension">Instalasi VSCODE dan Extension</a></li>
+  <li><a href="#github-student-developer-pack">Mendaftar Github Student Developer Pack</a></li>
+  <li><a href="#tutorial-git-dasar">Tutorial Git</a></li>
+</ol>
+
+<h1 id="panduan-instalasi-anaconda">Panduan Instalasi Anaconda</h1>
+
+<p>Berikut adalah panduan untuk menginstal Anaconda atau Miniconda di Windows dan MacOS</p>
+
+<blockquote>
+  <p>Anaconda dan Miniconda adalah dua distribusi yang berbeda untuk mengelola lingkungan Python, masing-masing dengan kelebihan dan tujuan penggunaannya sendiri. Anaconda adalah distribusi yang lengkap dan komprehensif, menyediakan Python serta lebih dari 1.500 paket yang digunakan dalam data science, seperti Jupyter Notebook, Spyder, NumPy, SciPy, Pandas, dan Matplotlib. Ukurannya yang besar, biasanya lebih dari 500 MB. Sebaliknya, Miniconda adalah versi minimalis dari Anaconda, hanya mencakup conda, Python, dan beberapa paket dasar, dengan ukuran installer yang sangat kecil, kurang dari 50 MB.</p>
+</blockquote>
+
+<h2 id="menginstal-anacondaminiconda-di-windows">Menginstal Anaconda/Miniconda di Windows</h2>
+
+<ol>
+  <li>
+<strong>Unduh Installer:</strong>
+    <ul>
+      <li>Kunjungi <a href="https://www.anaconda.com/products/distribution#download-section" target="_blank" rel="noopener noreferrer">situs resmi Anaconda</a> atau <a href="https://docs.conda.io/en/latest/miniconda.html" target="_blank" rel="noopener noreferrer">situs resmi Miniconda</a>.</li>
+      <li>Pilih installer yang sesuai dengan sistem operasi Windows Anda (64-bit atau 32-bit).</li>
+    </ul>
+  </li>
+  <li>
+<strong>Jalankan Installer:</strong>
+    <ul>
+      <li>Klik dua kali file installer yang sudah diunduh.</li>
+      <li>Ikuti petunjuk pada layar, pilih “Install for me only” kecuali jika Anda ingin Anaconda/Miniconda tersedia untuk semua pengguna komputer.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Pilih Lokasi Instalasi:</strong>
+    <ul>
+      <li>Pilih lokasi di mana Anda ingin menginstal Anaconda/Miniconda. Disarankan untuk menggunakan lokasi default.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Konfigurasi PATH:</strong>
+    <ul>
+      <li>Pada langkah ini, Anda akan melihat opsi untuk menambahkan Anaconda/Miniconda ke PATH environment variable. Sangat disarankan untuk tidak mencentang kotak ini agar tidak terjadi konflik dengan software lain. Namun, pastikan Anda mencentang opsi untuk mengatur Anaconda/Miniconda sebagai Python default Anda.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Selesaikan Instalasi:</strong>
+    <ul>
+      <li>Klik “Install” dan tunggu hingga proses instalasi selesai.</li>
+      <li>Setelah instalasi selesai, Anda dapat memverifikasi instalasi dengan membuka Anaconda Prompt (untuk Anaconda) atau Command Prompt (untuk Miniconda) dan menjalankan perintah <code class="language-plaintext highlighter-rouge">conda --version</code>.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="menginstal-anacondaminiconda-di-macos">Menginstal Anaconda/Miniconda di MacOS</h2>
+
+<ol>
+  <li>
+<strong>Unduh Installer:</strong>
+    <ul>
+      <li>Kunjungi <a href="https://www.anaconda.com/products/distribution#download-section" target="_blank" rel="noopener noreferrer">situs resmi Anaconda</a> atau <a href="https://docs.conda.io/en/latest/miniconda.html" target="_blank" rel="noopener noreferrer">situs resmi Miniconda</a>.</li>
+      <li>Pilih installer yang sesuai dengan sistem operasi macOS Anda (Intel atau Apple M1/M2 Chip).</li>
+    </ul>
+  </li>
+  <li>
+<strong>Jalankan Installer:</strong>
+    <ul>
+      <li>Buka terminal dan navigasikan ke folder tempat file installer diunduh. Misalnya, jika file diunduh di folder <code class="language-plaintext highlighter-rouge">Downloads</code>, ketik:
+        <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>cd ~/Downloads
+</code></pre></div>        </div>
+      </li>
+      <li>Ubah izin file installer agar dapat dieksekusi dengan perintah:
+        <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>chmod +x nama_file_installer.sh
+</code></pre></div>        </div>
+      </li>
+      <li>Jalankan installer dengan perintah:
+        <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>./nama_file_installer.sh
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>
+<strong>Ikuti Instruksi di Terminal:</strong>
+    <ul>
+      <li>Ikuti petunjuk pada layar untuk menyetujui lisensi dan memilih lokasi instalasi.</li>
+      <li>Disarankan untuk menggunakan lokasi default (biasanya di <code class="language-plaintext highlighter-rouge">~/anaconda3</code> atau <code class="language-plaintext highlighter-rouge">~/miniconda3</code>).</li>
+    </ul>
+  </li>
+  <li>
+<strong>Konfigurasi PATH:</strong>
+    <ul>
+      <li>Setelah instalasi selesai, installer akan menanyakan apakah Anda ingin menambahkan Anaconda/Miniconda ke PATH environment variable. Ketik <code class="language-plaintext highlighter-rouge">yes</code> dan tekan Enter.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Selesaikan Instalasi:</strong>
+    <ul>
+      <li>Tutup terminal dan buka kembali untuk memuat perubahan PATH.</li>
+      <li>Verifikasi instalasi dengan menjalankan perintah <code class="language-plaintext highlighter-rouge">conda --version</code> di terminal.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Berikut adalah panduan untuk menginstal Anaconda atau Miniconda di Ubuntu/Linux:</p>
+
+<h2 id="menginstal-anacondaminiconda-di-ubuntulinux">Menginstal Anaconda/Miniconda di Ubuntu/Linux</h2>
+
+<ol>
+  <li>
+<strong>Unduh Installer:</strong>
+    <ul>
+      <li>Kunjungi <a href="https://www.anaconda.com/products/distribution#download-section" target="_blank" rel="noopener noreferrer">situs resmi Anaconda</a> atau <a href="https://docs.conda.io/en/latest/miniconda.html" target="_blank" rel="noopener noreferrer">situs resmi Miniconda</a>.</li>
+      <li>Unduh installer yang sesuai untuk Linux. Biasanya, file installer akan memiliki ekstensi <code class="language-plaintext highlighter-rouge">.sh</code>.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Buka Terminal:</strong>
+    <ul>
+      <li>Buka terminal di sistem Ubuntu/Linux Anda.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Navigasi ke Folder Unduhan:</strong>
+    <ul>
+      <li>Pindah ke direktori tempat file installer diunduh. Misalnya, jika file diunduh ke folder <code class="language-plaintext highlighter-rouge">Downloads</code>, ketik:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~/Downloads
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>
+<strong>Ubah Izin File Installer:</strong>
+    <ul>
+      <li>Ubah izin file installer agar dapat dieksekusi dengan perintah:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">chmod</span> +x nama_file_installer.sh
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>
+<strong>Jalankan Installer:</strong>
+    <ul>
+      <li>Jalankan installer dengan perintah:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>./nama_file_installer.sh
+</code></pre></div>        </div>
+      </li>
+      <li>Gantilah <code class="language-plaintext highlighter-rouge">nama_file_installer.sh</code> dengan nama file installer yang sebenarnya.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Ikuti Instruksi di Terminal:</strong>
+    <ul>
+      <li>Ikuti petunjuk yang muncul di terminal untuk menyetujui lisensi dan memilih lokasi instalasi.</li>
+      <li>Disarankan untuk menggunakan lokasi default (biasanya di <code class="language-plaintext highlighter-rouge">~/anaconda3</code> atau <code class="language-plaintext highlighter-rouge">~/miniconda3</code>).</li>
+    </ul>
+  </li>
+  <li>
+<strong>Konfigurasi PATH:</strong>
+    <ul>
+      <li>Setelah instalasi selesai, installer akan menanyakan apakah Anda ingin menambahkan Anaconda/Miniconda ke PATH environment variable. Ketik <code class="language-plaintext highlighter-rouge">yes</code> dan tekan Enter.</li>
+      <li>Jika installer tidak menambahkan PATH secara otomatis, Anda bisa menambahkannya secara manual dengan menambahkan baris berikut di akhir file <code class="language-plaintext highlighter-rouge">~/.bashrc</code>:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"~/anaconda3/bin:</span><span class="nv">$PATH</span><span class="s2">"</span>
+</code></pre></div>        </div>
+        <p>atau</p>
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"~/miniconda3/bin:</span><span class="nv">$PATH</span><span class="s2">"</span>
+</code></pre></div>        </div>
+      </li>
+      <li>Setelah menambahkan baris di atas, muat ulang file <code class="language-plaintext highlighter-rouge">~/.bashrc</code> dengan perintah:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">source</span> ~/.bashrc
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>
+<strong>Verifikasi Instalasi:</strong>
+    <ul>
+      <li>Verifikasi instalasi dengan menjalankan perintah berikut di terminal:
+        <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>conda <span class="nt">--version</span>
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="panduan-video">Panduan Video</h2>
+
+<p>Video di bawah ini menggunakan bahasa Indonesia. Kredit: Pacman AI</p>
+<ol>
+  <li><a href="https://www.youtube.com/watch?v=XyudQ3B3OWI" target="_blank" rel="noopener noreferrer">Untuk Windows</a></li>
+  <li><a href="https://youtu.be/rhc-F-BVo1Y?si=K51clwd1Kfzq9qDa" target="_blank" rel="noopener noreferrer">Untuk MacOS</a></li>
+  <li><a href="https://youtu.be/PHkCmuzgHOo?si=y-UuOKnwzJG-by7s" target="_blank" rel="noopener noreferrer">Untuk Ubuntu</a></li>
+</ol>
+
+<h1 id="instalasi-vscode-dan-extension">Instalasi VSCode dan Extension</h1>
+
+<h3 id="vscode">VSCode</h3>
+<p>Silahkan download dari <a href="https://code.visualstudio.com/download" target="_blank" rel="noopener noreferrer">tautan berikut</a></p>
+
+<h3 id="extension-yang-diperlukan">Extension yang diperlukan</h3>
+<ol>
+  <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python" target="_blank" rel="noopener noreferrer">Python</a></li>
+  <li><a href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter" target="_blank" rel="noopener noreferrer">Jupyter</a></li>
+  <li><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot" target="_blank" rel="noopener noreferrer">Github Copilot</a></li>
+</ol>
+
+<h1 id="github-student-developer-pack">Github Student Developer Pack</h1>
+
+<p>Berikut adalah langkah-langkah untuk mendaftar GitHub Student Developer Pack:</p>
+
+<ol>
+  <li>
+<strong>Buat Akun GitHub:</strong>
+    <ul>
+      <li>Jika Anda belum memiliki akun GitHub, kunjungi <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com</a> dan klik “Sign up” untuk membuat akun baru.</li>
+      <li>Ikuti langkah-langkah untuk menyelesaikan proses pendaftaran dan verifikasi email Anda.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Masuk ke GitHub Education:</strong>
+    <ul>
+      <li>Kunjungi halaman <a href="https://education.github.com/pack" target="_blank" rel="noopener noreferrer">GitHub Education</a>.</li>
+      <li>Klik tombol “Get your pack” untuk memulai proses pendaftaran.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Verifikasi Status Pelajar:</strong>
+    <ul>
+      <li>Anda akan diminta untuk masuk ke akun GitHub Anda jika belum masuk.</li>
+      <li>Isi formulir pendaftaran dengan informasi yang diminta, seperti nama lengkap, nama institusi pendidikan, dan alamat email institusi pendidikan Anda.</li>
+      <li>Untuk memverifikasi status pelajar, Anda dapat menggunakan salah satu dari dua cara berikut:
+        <ul>
+          <li>Mengunggah foto atau scan kartu identitas pelajar yang valid.</li>
+          <li>Menggunakan alamat email institusi pendidikan (misalnya, email dengan domain .edu atau domain khusus institusi pendidikan lainnya).</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+<strong>Lengkapi Informasi Tambahan:</strong>
+    <ul>
+      <li>Terkadang, GitHub mungkin meminta informasi tambahan untuk memverifikasi status pelajar Anda, seperti URL ke profil institusi pendidikan atau dokumen pendukung lainnya.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Tunggu Persetujuan:</strong>
+    <ul>
+      <li>Setelah mengirimkan aplikasi, Anda akan menerima email konfirmasi bahwa permohonan Anda sedang diproses.</li>
+      <li>Proses verifikasi biasanya memerlukan waktu beberapa hari hingga satu minggu.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Akses GitHub Student Developer Pack:</strong>
+    <ul>
+      <li>Setelah permohonan Anda disetujui, Anda akan menerima email pemberitahuan.</li>
+      <li>Anda sekarang dapat mengakses GitHub Student Developer Pack yang berisi berbagai manfaat dan penawaran dari berbagai mitra, seperti domain gratis, layanan cloud, alat pengembangan, dan banyak lagi.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Dengan mengikuti langkah-langkah di atas, Anda dapat mendaftar dan memanfaatkan berbagai manfaat yang ditawarkan oleh GitHub Student Developer Pack untuk mendukung kegiatan belajar dan proyek pengembangan Anda.</p>
+
+<h3 id="panduan-video-1">Panduan Video</h3>
+
+<p><a href="https://www.youtube.com/watch?v=iyThW3RvZpk" target="_blank" rel="noopener noreferrer">How to Apply for GitHub Students benefits (GitHub Student Developer Pack)</a></p>
+
+<h1 id="tutorial-git-dasar">Tutorial Git Dasar</h1>
+
+<p>Berikut adalah tutorial dasar tentang penggunaan Git dengan GitHub:</p>
+
+<h3 id="1-persiapan-awal">1. Persiapan Awal</h3>
+<h4 id="menginstal-git">Menginstal Git</h4>
+<ul>
+  <li>
+<strong>Windows:</strong> Unduh Git dari <a href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer">situs resmi Git</a> dan jalankan installer.</li>
+  <li>
+<strong>MacOS:</strong> Buka terminal dan ketik <code class="language-plaintext highlighter-rouge">git</code>, jika belum terinstal, Anda akan diberikan pilihan untuk menginstalnya.</li>
+  <li>
+<strong>Linux:</strong> Instal Git menggunakan package manager, misalnya untuk Ubuntu:
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get update
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>git
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h4 id="mengkonfigurasi-git">Mengkonfigurasi Git</h4>
+<p>Setelah menginstal Git, konfigurasikan informasi pengguna:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> user.name <span class="s2">"Nama Anda"</span>
+git config <span class="nt">--global</span> user.email <span class="s2">"email@example.com"</span>
+</code></pre></div></div>
+
+<h3 id="2-membuat-repository-baru">2. Membuat Repository Baru</h3>
+<h4 id="menggunakan-github">Menggunakan GitHub</h4>
+<ol>
+  <li>
+<strong>Buat Repository Baru:</strong>
+    <ul>
+      <li>Kunjungi <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a> dan masuk ke akun Anda.</li>
+      <li>Klik tombol “New” atau ikon “+” di sudut kanan atas dan pilih “New repository”.</li>
+      <li>Isi nama repository dan deskripsi (opsional), pilih publik atau privat, dan klik “Create repository”.</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="menggunakan-git">Menggunakan Git</h4>
+<ol>
+  <li>
+<strong>Buat Folder Lokal:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>nama-repo
+<span class="nb">cd </span>nama-repo
+</code></pre></div>    </div>
+  </li>
+  <li>
+<strong>Inisialisasi Repository Git:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git init
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="3-menambahkan-remote-repository">3. Menambahkan Remote Repository</h3>
+<p>Hubungkan repository lokal Anda dengan repository GitHub:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin https://github.com/username/nama-repo.git
+</code></pre></div></div>
+
+<h3 id="4-menambahkan-dan-meng-commit-perubahan">4. Menambahkan dan Meng-commit Perubahan</h3>
+<ol>
+  <li>
+<strong>Buat atau Tambahkan File:</strong>
+    <ul>
+      <li>Buat file baru, misalnya <code class="language-plaintext highlighter-rouge">README.md</code>, dan tambahkan beberapa konten.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Tambahkan File ke Staging Area:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git add README.md
+</code></pre></div>    </div>
+  </li>
+  <li>
+<strong>Commit Perubahan:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git commit <span class="nt">-m</span> <span class="s2">"Menambahkan README"</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="5-mengirim-perubahan-ke-github">5. Mengirim Perubahan ke GitHub</h3>
+<ol>
+  <li>
+<strong>Push ke Repository GitHub:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git push origin master
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="6-melakukan-perubahan-dan-melacak-versi">6. Melakukan Perubahan dan Melacak Versi</h3>
+<ol>
+  <li>
+<strong>Lakukan Perubahan pada File:</strong>
+    <ul>
+      <li>Edit file yang ada atau tambahkan file baru.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Tambahkan dan Commit Perubahan:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
+git commit <span class="nt">-m</span> <span class="s2">"Deskripsi perubahan"</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+<strong>Push Perubahan:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git push origin master
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="7-mengelola-branch">7. Mengelola Branch</h3>
+<p>Branch memungkinkan Anda untuk bekerja pada fitur atau perbaikan secara terpisah dari branch utama (master/main).</p>
+
+<ol>
+  <li>
+<strong>Buat Branch Baru:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-b</span> nama-branch
+</code></pre></div>    </div>
+  </li>
+  <li>
+<strong>Pindah ke Branch:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git checkout nama-branch
+</code></pre></div>    </div>
+  </li>
+  <li>
+<strong>Push Branch ke GitHub:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git push origin nama-branch
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="8-menggabungkan-branch">8. Menggabungkan Branch</h3>
+<p>Setelah selesai bekerja pada branch, gabungkan perubahan ke branch utama.</p>
+
+<ol>
+  <li>
+<strong>Pindah ke Branch Utama:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git checkout master
+</code></pre></div>    </div>
+  </li>
+  <li>
+<strong>Gabungkan Branch:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git merge nama-branch
+</code></pre></div>    </div>
+  </li>
+  <li>
+<strong>Push Perubahan:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git push origin master
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="9-menarik-perubahan-dari-github">9. Menarik Perubahan dari GitHub</h3>
+<p>Untuk memperbarui repository lokal Anda dengan perubahan terbaru dari GitHub:</p>
+
+<ol>
+  <li>
+<strong>Pull Perubahan:</strong>
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git pull origin master
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>Dengan mengikuti langkah-langkah ini, Anda dapat memulai penggunaan Git dan GitHub untuk mengelola proyek Anda dengan versi kontrol yang efisien.</p>
+
+            </article>
+        </main>
+
+        <footer>
+          <p class="copy">
+            <small> © Martin Manullang 2024
+                    | Powered by Jekyll and
+                    <a target="_blank" href="https://github.com/jitinnair1/gradfolio/" rel="noopener noreferrer">Gradfolio</a>.
+                    Last updated on 16 July 2024
+            </small>
+          </p>
+
+        <div class="rounded-social-buttons">
+<a title="" class="social-button email" itemprop="email" href="mailto:%6D%63%74%6F%73%69%6D%61@%67%6D%61%69%6C.%63%6F%6D" target="_blank">
+<i class="far fa-envelope"></i>
+</a><a title="" class="social-button linkedin" href="https://www.linkedin.com/in/mctosima" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-linkedin"></i>
+</a><a title="" class="social-button github" href="https://www.github.com/mctosima" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-github"></i>
+</a><a title="" class="social-button orcid" href="https://orcid.org/0000-0002-7437-0851" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-orcid"></i>
+</a><a title="" class="social-button twitter" href="https://www.twitter.com/mctosima_" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-twitter"></i>
+</a><a title="" class="social-button instagram" itemprop="sameAs" href="https://www.instagram.com/mctosima" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-instagram"></i>
+</a>
+</div>
+
+
+        </footer>
+
+        <!-- Google Analytics Tracking code -->
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = '';
+</script>
+
+    </body>
+
+</html>
