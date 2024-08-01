@@ -80,12 +80,12 @@ Kontrak kuliah ini disusun dan disepakati oleh dosen dan mahasiswa yang diampu s
 
 ### 3.2 Hak Untuk Melaporkan Pelanggaran
 Mahasiswa disarankan untuk melaporkan dosen pengampu ke Koordinator Program Studi Teknik Informatika apabila dosen pengampu:
-    - Tidak menjadwalkan kuliah ganti / kegiatan pengganti apabila dosen pengampu tidak hadir
-    - Melakukan pelecehan secara verbal dan fisik
-    - Bertindak sewenang-wenang diluar kontrak kuliah dan aturan yang berlaku di ITERA
-    - Melakukan pungutan liar, berjualan buku/diktat, mewajibkan pembelian suatu barang atau hal
-    - Meminta bertemu dengan mahasiswa di luar jam perkuliahan tanpa alasan yang jelas
-    - Meminta mahasiswa untuk membayar uang parkir, uang makan, atau hal lain yang tidak ada kaitannya dengan perkuliahan
+- Tidak menjadwalkan kuliah ganti / kegiatan pengganti apabila dosen pengampu tidak hadir
+- Melakukan pelecehan secara verbal dan fisik
+- Bertindak sewenang-wenang diluar kontrak kuliah dan aturan yang berlaku di ITERA
+- Melakukan pungutan liar, berjualan buku/diktat, mewajibkan pembelian suatu barang atau hal
+- Meminta bertemu dengan mahasiswa di luar jam perkuliahan tanpa alasan yang jelas
+- Meminta mahasiswa untuk membayar uang parkir, uang makan, atau hal lain yang tidak ada kaitannya dengan perkuliahan
 
 ### 3.3 Hak Berkomunikasi dan Mendapatkan Jawaban
 - Dosen pengampu wajib menjawab pertanyaan mahasiswa terkait perkuliahan dalam kurun waktu 24 jam sejak pesan tersebut dikirimkan
