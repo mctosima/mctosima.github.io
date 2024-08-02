@@ -11,4 +11,4 @@ Dedicating my life to live in the world of technology as a researcher and academ
 
 An avid music enthusiast, dedicating my free time to the serious craft of music production, composition, arrangement, mixing, and mastering.
 
-Live in a productive ecosystem, love automation and planning at work and leverage technology for productivity. Practicing gospel of the bible.~
+Live in a productive ecosystem, love automation and planning at work and leverage technology for productivity. Saved by grace through faith.
