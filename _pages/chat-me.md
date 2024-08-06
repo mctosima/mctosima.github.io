@@ -28,7 +28,7 @@ Menghubungi saya tidak perlu kaku dan bertele-tele. Dengan berkomunikasi secara 
 ### Contoh Interaksi
 - Hindari chat yang bertele-tele serta panjang.
 - Berikut contoh yang kurang tepat:
-    > "Permisi Pak 🙏🙏. Selamat Pagi. Perkenalkan nama saya Wasweswos dengan NIM 1234567 dari Prodi XYZ Angkatan 2023. Izin sebelumnya pak, saya ingin meminta tanda tangan bapak terkait perizinan untuk acara GATHERING 123 yang akan diadakan tanggal 32 Januari 2045. Kiranya bapak berkenan saya temui dan menandatangani surat perizinan ini. Atas perhatiannya kami ucapkan terima kasih Pak. Selamat Pagi."
+    > "Permisi Pak 🙏🙏. Selamat Pagi. Mohon maaf menganggu waktunya Pak. Perkenalkan nama saya Wasweswos dengan NIM 1234567 dari Prodi XYZ Angkatan 2023. Izin sebelumnya pak, saya ingin meminta tanda tangan bapak terkait perizinan untuk acara GATHERING 123 yang akan diadakan tanggal 32 Januari 2045. Kiranya bapak berkenan saya temui dan menandatangani surat perizinan ini. Atas perhatiannya kami ucapkan terima kasih Pak. Selamat Pagi."
 - Akan lebih efektif dan efisien apabila chat tersebut disederhanakan menjadi:
     > "Pagi Pak. Saya Wasweswos (NIM 1234567). Saya ingin meminta tanda tangan bapak untuk perizinan acara. Dimana dan kapan bapak dapat saya temui? Terima Kasih"
 - Contoh lain yang kurang tepat:
