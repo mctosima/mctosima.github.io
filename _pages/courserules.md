@@ -56,7 +56,7 @@ Kontrak kuliah ini disusun dan disepakati oleh dosen dan mahasiswa yang diampu s
 4. Dalam perkuliahan, seluruh peserta kuliah baik dosen dan mahasiswa hanya diperbolehkan menggunakan bahasa indonesia atau inggris. Baik dosen dan mahasiswa sebisa mungkin menghindari penggunaan bahasa daerah.
 5. Bagi mahasiswa yang tidak dapat memenuhi ketentuan poin 1 dan 2, maka disarankan untuk mengikuti perkuliahan via Youtube Streaming. 
 6. Mahasiswa diwajibkan untuk berinteraksi dalam kuliah sinkron. Apabila mahasiswa tidak menyanggupi poin ini, maka disarankan untuk mengikuti perkuliahan via Youtube Streaming. Sehingga, seluruh mahasiswa yang hadir pada zoom/google meet dianggap menyetujui untuk menyalakan kamera dan berpartisipasi aktif dalam perkuliahan.
-7. Mahasiswa dilarang untuk mengedarkan link zoom / google meet / youtube stream / rekaman kuliah ke pihak lain yang tidak terdaftar sebagai mahasiswa mata kuliah tersebut. Pelanggaran untuk poin ini akan mengakibatkan diskualifikasi dari mata kuliah tersebut.
+7. Mahasiswa dilarang untuk mengedarkan link zoom / google meet / youtube stream / rekaman kuliah ke pihak lain diluar mahasiswa ITERA. Pelanggaran untuk poin ini akan mengakibatkan diskualifikasi dari mata kuliah tersebut.
 
 > Semua mahasiswa yang hadir pada kuliah sinkron, dianggap menyetujui untuk aktif berinteraksi dan menyalakan kamera selama perkuliahan berlangsung.
 > Baik kuliah sinkron maupun asinkron berhak untuk dianggap sebagai kehadiran dalam perkuliahan.
