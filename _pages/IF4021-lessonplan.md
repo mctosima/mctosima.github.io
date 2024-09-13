@@ -6,8 +6,8 @@ published: true
 ---
 **Table of Content**
 1. [5-Hour Audio Processing Course Outline](#audio-processing-course-outline)
-2. [5-Hour Image Processing Course Outline](#5-hour-image-processing-course-outline)
-3. [5-Hour Video Processing Course Outline](#5-hour-video-processing-course-outline)
+2. [5-Hour Image Processing Course Outline](#image-processing-course-outline)
+3. [5-Hour Video Processing Course Outline](#video-processing-course-outline)
 
 ---
 
