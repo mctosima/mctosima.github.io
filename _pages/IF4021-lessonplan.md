@@ -5,13 +5,13 @@ permalink: /course/if4021/lessonplan
 published: true
 ---
 **Table of Content**
-1. [5-Hour Audio Processing Course Outline](#5-hour-audio-processing-course-outline)
+1. [5-Hour Audio Processing Course Outline](#audio-processing-course-outline)
 2. [5-Hour Image Processing Course Outline](#5-hour-image-processing-course-outline)
 3. [5-Hour Video Processing Course Outline](#5-hour-video-processing-course-outline)
 
 ---
 
-# 5-Hour Audio Processing Course Outline
+# Audio Processing Course Outline
 
 ## Session 1: Introduction to Audio Processing (40 minutes)
 ### 1.1 Basic Concepts (20 minutes)
@@ -83,8 +83,67 @@ published: true
 
 ---
 
-# 5-Hour Image Processing Course Outline
-tba
+# Image Processing Course Outline
+
+## Session 1: Introduction to Image Processing with Python
+
+1. **Understanding Images in Python (25 mins)**
+   - Image representation (pixels, color channels).
+   - Loading and displaying images using OpenCV and Matplotlib.
+   - Basic image properties (dimensions, color spaces).
+
+2. **Basic Image Operations (40 mins)**
+   - Resizing, cropping, and rotating images.
+   - Color space conversions (e.g., RGB to Grayscale).
+   - Image thresholding and binary images.
+   - Image blending and masking techniques.
+
+## Session 2: Advanced Image Processing Techniques
+
+1. **Recap of Day 1 and Introduction to Day 2 (5 mins)**
+   - Quick summary of previous day’s content.
+   - Outline of today’s objectives.
+
+2. **Image Filtering and Smoothing (25 mins)**
+   - Understanding noise in images.
+   - Applying various filters:
+     - Gaussian Blur
+     - Median Filter
+     - Bilateral Filter
+   - Practical applications of each filter type.
+
+3. **Edge Detection (25 mins)**
+   - Introduction to edges in images.
+   - Implementing Canny Edge Detection.
+   - Exploring Sobel and Laplacian operators.
+   - Comparing different edge detection methods.
+
+4. **Morphological Operations (20 mins)**
+   - Dilation and Erosion.
+   - Opening and Closing.
+   - Applications in image preprocessing and noise removal.
+
+## Session 3: Clasic Computer Vision Techniques
+
+1. **Recap of Day 2 and Introduction to Classical Computer Vision (10 mins)**
+   - Summary of advanced image processing techniques.
+   - Overview of classical computer vision applications.
+
+2. **Template Matching and Feature Detection (25 mins)**
+   - Introduction to template matching.
+   - Implementing template matching using OpenCV.
+   - Introduction to feature detection (e.g., Harris Corner Detector).
+   - Comparing template matching with feature-based methods.
+
+3. **Image Morphing and Blending (25 mins)**
+   - Techniques for image morphing.
+   - Implementing image blending for seamless transitions.
+   - Practical applications of morphing and blending.
+
+4. **Image Stitching and Panorama Creation (20 mins)**
+   - Basics of image stitching.
+   - Aligning multiple images to create panoramas.
+   - Handling exposure differences and blending edges.
 
 ---
 
