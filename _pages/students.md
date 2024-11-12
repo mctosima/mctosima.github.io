@@ -11,19 +11,19 @@ published: true
 
 <div class="columns">
     <div class="column">
+        <img src="{{'/assets/images/studentimage/yahya.jpg' | prepend: site.baseurl }}" alt="Yahya" class="student-image">
+        <p style="font-size: 16px; margin-bottom: 5px; margin-top: 0px"><strong>Muhammad Yahya Ayyashy Mujahidan</strong></p>
+        <p style="font-size: 12px; margin-top: 5px;">Pengukuran Frekuensi Laju Pernapasan Secara Non-Kontak Dengan Metode Pelacakan Perubahan Intensitas Piksel Pada Citra Rgb</p>
+    </div>
+    <div class="column">
+        <img src="{{'/assets/images/studentimage/ridho.jpg' | prepend: site.baseurl }}" alt="Ridho" class="student-image">
+        <p style="font-size: 16px; margin-bottom: 5px; margin-top: 0px"><strong>Ridho Liwardana</strong></p>
+        <p style="font-size: 12px; margin-top: 5px;">Estimasi Tekanan Darah Non-Kontak Berdasarkan Rekaman Citra Wajah dengan Menggunakan Deep Learning</p>
+    </div>
+    <div class="column">
         <img src="{{'/assets/images/studentimage/fahri.jpg' | prepend: site.baseurl }}" alt="Fahri Novaldi" class="student-image">
         <p style="font-size: 16px; margin-bottom: 5px; margin-top: 0px"><strong>Fahri Novaldi</strong></p>
         <p style="font-size: 12px; margin-top: 5px;">Pemanfaatan Generative Network: Peningkatan Kualitas Citra Digital dengan Pendekatan Super-Resolution</p>
-    </div>
-    <div class="column">
-        <!-- <img src="{{'/assets/images/studentimage/najie.jpg' | prepend: site.baseurl }}" alt="Najie" class="student-image">
-        <p style="font-size: 16px; margin-bottom: 5px; margin-top: 0px"><strong>Muhammad Najie</strong></p>
-        <p style="font-size: 12px; margin-top: 5px;">Pengembangan Perangkat Lunak Pengukuran Laju Pernapasan Secara Non Kontak Memanfaatkan Kamera Termal</p> -->
-    </div>
-    <div class="column">
-        <!-- <img src="{{'/assets/images/studentimage/lukassandy.jpg' | prepend: site.baseurl }}" alt="Lukas" class="student-image">
-        <p style="font-size: 16px; margin-bottom: 5px; margin-top: 0px"><strong>Lukas Sandy</strong></p>
-        <p style="font-size: 12px; margin-top: 5px;">Perhitungan Frekuensi dan Variabilitas Respirasi Non-Kontak Pada Video Termal Menggunanakan Algoritma Zero Crossing dan Local Maxima</p> -->
     </div>
 </div>
 
