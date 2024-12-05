@@ -39,6 +39,7 @@ Human-centered applications, healthcare technology, multimedia processing, compu
 ---
 
 # Publication
+- **M. C. T. Manullang**, Y.-H. Lin, and N.-K. Chou, “A transformer based network for estimating blood pressure using facial videos,” IEEE Sens. J., 2024, doi: 10.1109/jsen.2024.3496115. Available: https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=yGzxa7wAAAAJ:ufrVoPGSRksC
 - A. K. Rizkita, R. I. Kesuma, and **M. C. T. Manullang**, “Smart camera for visitor recording based on face recognition in automatic gates (case study: New normal protocols in Institut Teknologi Sumatera),” in 3RD CONFERENCE ON INNOVATION IN TECHNOLOGY AND ENGINEERING SCIENCE 2022 (CITES2022): Innovation in Technology and Science for New Era of Engineering Professionalism, AIP Publishing, 2024.
 - I. Aprini and **M. C. T. Manullang**, “Adapting remote photoplethysmography for Indonesian subjects: an examination of diverse rPPG techniques,” *JITEL (Jurnal Ilmiah Telekomunikasi, Elektronika, dan Listrik Tenaga)*, vol. 3, no. 3, pp. 165–180, Sep. 2023
 - **M. C. T. Manullang**, Y. T. Siswanto, and N. Resfita, “A low-cost notion to monitor and diagnose obstructive sleep apnea (ideas for an affordable sleep test in Indonesia),” *AIP Conference Proceedings*, vol. 2623, no. 1, Aug. 2023
