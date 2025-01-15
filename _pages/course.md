@@ -5,7 +5,7 @@ permalink: /course/
 published: true
 ---
 # Current Course
-- [IF2223 Operating System RB & RC](/course/2024-2025-2-if2223)
+- [IF2223 Operating System](/course/2024-2025-2-if2223)
 - [IF4021 Multimedia Technology](/course/2024-2025-2-if4021)
 - [IF3024 Digital Signal Processing](/course/2024-2025-2-if3024)
 
