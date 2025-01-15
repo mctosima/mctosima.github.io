@@ -10,7 +10,7 @@ published: true
 - [IF3024 Digital Signal Processing](/course/2024-2025-2-if3024)
 
 # Previous Course
-## 2024/2025-1 Courses
+**2024/2025-1 Courses**
 - [IF4021 Multimedia Technology](/course/if4021)
 - [IF3024 Digital Signal Processing](/course/if3024)
 - [IF4025 Pervasive Computing](/course/if4025)
