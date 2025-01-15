@@ -4,8 +4,12 @@ layout: default
 permalink: /course/
 published: true
 ---
+# 2024/2025-2
+- [IF2223 Operating System RB & RC](/course/2024-2025-2-if2223)
+- [IF4021 Multimedia Technology](/course/2024-2025-2-if4021)
+- [IF3024 Digital Signal Processing](/course/2024-2025-2-if3024)
 
-# 2024/2025 Courses
+# 2024/2025-1 Courses
 - [IF4021 Multimedia Technology](/course/if4021)
 - [IF3024 Digital Signal Processing](/course/if3024)
 - [IF4025 Pervasive Computing](/course/if4025)
