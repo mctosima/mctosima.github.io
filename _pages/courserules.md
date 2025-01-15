@@ -5,7 +5,7 @@ permalink: /course/rules
 published: true
 ---
 
-*Diperbaharui terakhir: 2024/07/08*
+*Diperbaharui terakhir: 2025/01/15*
 
 # Kontrak Kuliah
 
@@ -48,20 +48,25 @@ Kontrak kuliah ini disusun dan disepakati oleh dosen dan mahasiswa yang diampu s
 3. Atribusi tersebut harus disertai dengan tautan percakapan / tangkapan layar yang menunjukkan bahwa Anda menggunakan LLM dan Generative AI untuk membantu dalam mengerjakan tugas.
 
 ### 2.5. Ketentuan Kuliah Daring
-*Kuliah daring akan terbagi menjadi dua bagian, yaitu kuliah sinkron (dengan zoom / google meet) dan asinkron (live streaming Youtube).*
-
 1. Mahasiswa diwajibkan untuk menyalakan kamera dan diwajibkan menonaktifkan microphone (kecuali pada saat berinteraksi)
 2. Dalam waktu tertentu, dosen pengampu akan meminta mahasiswa untuk merespon pertanyaan yang diajukan.
 3. Mahasiswa dilarang mendokumentasikan kegiatan perkuliahan dengan merekam layar maupun audio. Rekaman perkuliahan akan disediakan oleh dosen pengampu melalui web.
 4. Dalam perkuliahan, seluruh peserta kuliah baik dosen dan mahasiswa hanya diperbolehkan menggunakan bahasa indonesia atau inggris. Baik dosen dan mahasiswa sebisa mungkin menghindari penggunaan bahasa daerah.
-5. Bagi mahasiswa yang tidak dapat memenuhi ketentuan poin 1 dan 2, maka disarankan untuk mengikuti perkuliahan via Youtube Streaming. 
-6. Mahasiswa diwajibkan untuk berinteraksi dalam kuliah sinkron. Apabila mahasiswa tidak menyanggupi poin ini, maka disarankan untuk mengikuti perkuliahan via Youtube Streaming. Sehingga, seluruh mahasiswa yang hadir pada zoom/google meet dianggap menyetujui untuk menyalakan kamera dan berpartisipasi aktif dalam perkuliahan.
-7. Mahasiswa dilarang untuk mengedarkan link zoom / google meet / youtube stream / rekaman kuliah ke pihak lain diluar mahasiswa ITERA. Pelanggaran untuk poin ini akan mengakibatkan diskualifikasi dari mata kuliah tersebut.
+5. Bagi mahasiswa yang tidak dapat memenuhi ketentuan poin 1 dan 2, maka disarankan untuk keluar dari zoom dan mengikuti perkuliahan secara mandiri dengan menonton rekaman video. 
+6. Mahasiswa diwajibkan untuk berinteraksi dalam kuliah sinkron. Apabila mahasiswa tidak menyanggupi poin ini, maka disarankan untuk meninggalkan zomo dan belajar mandiri dengan menonton rekaman video. Sehingga, seluruh mahasiswa yang hadir pada zoom/google meet dianggap menyetujui untuk menyalakan kamera dan berpartisipasi aktif dalam perkuliahan.
+7. Mahasiswa dilarang untuk mengedarkan link zoom / google meet / youtube stream / rekaman kuliah ke pihak lain diluar mahasiswa ITERA. Pelanggaran untuk poin ini akan mengakibatkan diskualifikasi (nilai E) dari mata kuliah tersebut.
 
-> Semua mahasiswa yang hadir pada kuliah sinkron, dianggap menyetujui untuk aktif berinteraksi dan menyalakan kamera selama perkuliahan berlangsung.
-> Baik kuliah sinkron maupun asinkron berhak untuk dianggap sebagai kehadiran dalam perkuliahan.
+### 2.6. Ketentuan Kuliah Luring
+1. Mahasiswa disarankan hadir 10 menit sebelum kuliah berlangsung
+2. Toleransi keterlambatan adalah 5 menit untuk kuliah luring.
+3. Apabila dosen pengampu tidak hadir dalam waktu 10 menit setelah jadwal perkuliahan, maka kuliah dianggap batal dan mahasiswa diperbolehkan untuk meninggalkan ruangan.
+4. Presensi kehadiran tidak dijadikan penilaian maupun persyaratan apapun (hanya khusus di kelas yang diampu oleh MCT)
+5. Mahasiswa dilarang untuk mengedarkan foto / merekam video / merekam audio / merekam percakapan dosen pengampu tanpa izin. Pelanggaran terhadap poin ini akan mengakibatkan diskualifikasi (nilai E) dari mata kuliah tersebut.
+6. Mahasiswa yang hadir diwajibkan untuk berpartisipasi aktif dalam interaksi di dalam kelas. Apabila mahasiswa tidak menyanggupi poin ini, maka disarankan untuk meninggalkan ruangan dan belajar secara mandiri.
+7. Mahasiswa diperkenankan izin untuk pergi ke toilet, beribadah, menelepon, dan hal lainnya yang bersifat mendesak tanpa harus menginterupsi jalannya perkuliahan.
+8. Mahasiswa dipersilahkan untuk makan dan minum di kelas selagi tidak menimbulkan suara yang mengganggu jalannya perkuliahan.
 
-### 2.6. Lainnya
+### 2.7. Lainnya
 - Jika anda memiliki disabilitas yang menghambat berlangsungnya proses belajar mengajar, silahkan informasikan kendala anda ke email dosen
 - Mahasiswa yang mengalami kendala mental dan psikologis dimohon menghubungi dosen pengampu dan berkonsultasi dengan bimbingan konseling ITERA
 - Mahasiswa tidak diperkenankan menghubungi dosen melalui instagram/x/twitter/reddit/tiktok untuk hal-hal yang menyangkut perkuliahan.
@@ -75,8 +80,7 @@ Kontrak kuliah ini disusun dan disepakati oleh dosen dan mahasiswa yang diampu s
 1. Mahasiswa berhak mendapatkan ilmu yang berkualitas dari dosen pengampu
 2. Mahasiswa berhak bertanya sejelas-jelasnya terkait materi yang disampaikan oleh dosen pengampu.
 3. Mahasiswa berhak bertanya melalui media komunikasi yang telah disepakati di kelas dan email.
-4. Dosen pengampu wajib hadir secara daring dan luring dengan maksimal keterlambatan 5 menit dari jadwal yang telah ditentukan atau perubahan jadwal yang telah diinformasikan sebelumnya.
-5. Mahasiswa berhak untuk tidak hadir dan membatalkan perkuliahan apabila dosen pengampu tidak hadir dalam kurun waktu 5 menit tanpa pemberitahuan sebelumnya.
+
 
 ### 3.2 Hak Untuk Melaporkan Pelanggaran
 Mahasiswa disarankan untuk melaporkan dosen pengampu ke Koordinator Program Studi Teknik Informatika apabila dosen pengampu:
