@@ -16,7 +16,7 @@ Kontrak kuliah ini disusun dan disepakati oleh dosen dan mahasiswa yang diampu s
 
 ### 2.1 Keterlambatan
 - Keterlambatan pengumpulan tugas dalam hal apapun, misalnya : laptop rusak, jaringan yang terganggu, file mendadak hilang, dst; tidak akan mendapat toleransi apapun.
-- Tugas yang dikumpulkan terlambat mendapat penalti pengurangan point 50%
+- Tugas yang dikumpulkan terlambat mendapat penalti pengurangan point 10% per jam keterlamabatan.
 
 ### 2.2 Susulan dan Perbaikan
 - Untuk alasan apapun, ujian / kuis / tugas perbaikan tidak diberikan kecuali:
