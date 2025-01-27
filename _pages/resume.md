@@ -9,10 +9,10 @@ published: true
 
 # Resume
 
-> Hi, I am Martin. I am currently pursuing a doctoral program at the [Electronics and Computer Engineering Department](https://www.ceecs.ntust.edu.tw/), [NTUST](https://ntust.edu.tw/). I'm also a faculty member of [Program Studi Teknik Informatika](http://if.itera.ac.id/), Institut Teknologi Sumatera ([ITERA](http://itera.ac.id/)), a state engineering university located in Lampung.
+> Hi, I am Martin. I graduated from [Electronics and Computer Engineering Department](https://www.ceecs.ntust.edu.tw/), [NTUST](https://ntust.edu.tw/). I'm also a faculty member of [Program Studi Teknik Informatika](http://if.itera.ac.id/), Institut Teknologi Sumatera ([ITERA](http://itera.ac.id/)), a state engineering university located in Lampung.
 > 
 
-- **Full Name :** Martin Clinton Tosima Manullang, S.T., M.T.
+- **Full Name :** Martin Clinton Tosima Manullang, Ph.D.
 - **NIP.:** 19930109 201903 1 017
 - **NIDN.:** 0009019302
 - **E-Mail :** martin.manullang[at]if.itera.ac.id & martin.manullang@ieee.org
@@ -26,7 +26,7 @@ published: true
 
 - Undergraduate : Computer Engineering, Universitas Diponegoro
 - Master Degree : Computer Engineering, Institut Teknologi Bandung
-- Doctoral : Currently Enrolled in Ph.D. Program - Department of Electronics and Computer Engineering, National Taiwan University of Science and Technology
+- Ph.D. : Department of Electronics and Computer Engineering, National Taiwan University of Science and Technology
 
 # Research Interest
 Human-centered applications, healthcare technology, multimedia processing, computer vision
