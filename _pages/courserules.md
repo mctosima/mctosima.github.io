@@ -5,7 +5,9 @@ permalink: /course/rules
 published: true
 ---
 
-*Diperbaharui terakhir: 2025/01/15*
+*Diperbaharui terakhir: 2025/02/02*
+
+> Kontrak kuliah ini hanya berlaku pada kelas yang diampu oleh MCT
 
 # Kontrak Kuliah
 
