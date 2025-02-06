@@ -5,7 +5,7 @@ permalink: /course/rules
 published: true
 ---
 
-*Diperbaharui terakhir: 2025/02/02*
+*Diperbaharui terakhir: 2025/02/06*
 
 > Kontrak kuliah ini hanya berlaku pada kelas yang diampu oleh MCT
 
@@ -61,7 +61,7 @@ Kontrak kuliah ini disusun dan disepakati oleh dosen dan mahasiswa yang diampu s
 ### 2.6. Ketentuan Kuliah Luring
 1. Mahasiswa disarankan hadir 10 menit sebelum kuliah berlangsung
 2. Toleransi keterlambatan adalah 5 menit untuk kuliah luring.
-3. Apabila dosen pengampu tidak hadir dalam waktu 10 menit setelah jadwal perkuliahan, maka kuliah dianggap batal dan mahasiswa diperbolehkan untuk meninggalkan ruangan.
+3. Apabila dosen pengampu tidak hadir dalam waktu 5 menit setelah jadwal perkuliahan, maka kuliah dianggap batal dan mahasiswa diperbolehkan untuk meninggalkan ruangan.
 4. Presensi kehadiran tidak dijadikan penilaian maupun persyaratan apapun (hanya khusus di kelas yang diampu oleh MCT)
 5. Mahasiswa dilarang untuk mengedarkan foto / merekam video / merekam audio / merekam percakapan dosen pengampu tanpa izin. Pelanggaran terhadap poin ini akan mengakibatkan diskualifikasi (nilai E) dari mata kuliah tersebut.
 6. Mahasiswa yang hadir diwajibkan untuk berpartisipasi aktif dalam interaksi di dalam kelas. Apabila mahasiswa tidak menyanggupi poin ini, maka disarankan untuk meninggalkan ruangan dan belajar secara mandiri.
