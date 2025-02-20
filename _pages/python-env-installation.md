@@ -10,6 +10,7 @@ published: true
 2. [Instalasi VSCODE dan Extension](#instalasi-vscode-dan-extension)
 3. [Mendaftar Github Student Developer Pack](#github-student-developer-pack)
 4. [Tutorial Git](#tutorial-git-dasar)
+5. [NEW...!!! UV Python Environment](#uv-python-environment)
 
 # Panduan Instalasi Anaconda
 
@@ -293,3 +294,95 @@ Untuk memperbarui repository lokal Anda dengan perubahan terbaru dari GitHub:
    ```
 
 Dengan mengikuti langkah-langkah ini, Anda dapat memulai penggunaan Git dan GitHub untuk mengelola proyek Anda dengan versi kontrol yang efisien.
+
+# UV Python Environment
+
+> Diterjemahkan dari postingan Sebastian Raschka pada [tautan berikut ini](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/01_optional-python-setup-preferences/README.md)
+
+Saya telah lama menggunakan Conda dan pip, namun baru-baru ini, package uv telah mendapatkan popularitas yang signifikan karena menyediakan cara yang lebih cepat dan efisien untuk menginstal package dan menyelesaikan dependencies.
+
+Saya merekomendasikan untuk memulai dengan Option 1: Menggunakan uv karena ini adalah pendekatan yang lebih modern di tahun 2025. Jika Anda mengalami masalah dengan Option 1, pertimbangkan Option 2: Menggunakan Conda.
+
+## Step 1: Instalasi Python
+Jika Anda belum pernah menginstal Python secara manual di sistem Anda sebelumnya, sangat disarankan untuk melakukannya. Ini membantu mencegah potensi konflik dengan instalasi Python bawaan sistem operasi Anda, yang dapat menyebabkan masalah.
+
+Namun, bahkan jika Anda sudah menginstal Python di sistem Anda sebelumnya, periksa apakah Anda memiliki versi Python modern yang terinstal (disarankan 3.10 atau yang lebih baru) dengan menjalankan kode berikut di terminal:
+
+```bash
+python --version
+```
+
+Jika menampilkan versi 3.10 atau yang lebih baru, tidak diperlukan tindakan lebih lanjut.
+
+### Instalasi Python Secara Manual
+
+#### Untuk Linux/Ubuntu:
+```bash
+sudo apt update
+sudo apt install python3
+```
+
+#### Untuk macOS:
+1. Unduh installer dari [python.org](https://www.python.org/downloads/)
+2. Buka file .pkg yang diunduh
+3. Ikuti petunjuk installer
+4. Verifikasi instalasi:
+```bash
+python3 --version
+```
+
+#### Untuk Windows:
+1. Kunjungi [python.org](https://www.python.org/downloads/)
+2. Unduh installer Windows terbaru
+3. Jalankan installer
+4. **PENTING:** Centang "Add Python to PATH"
+5. Pilih "Install Now"
+6. Verifikasi di Command Prompt:
+```cmd
+python --version
+```
+
+## Step 2: Instalasi UV
+
+Sangat disarankan untuk menginstal paket Python dalam virtual environment terpisah untuk menghindari modifikasi paket sistem yang mungkin dibutuhkan oleh sistem operasi Anda. Untuk membuat virtual environment di folder saat ini, ikuti tiga langkah di bawah ini.
+
+1. Instal uv
+```bash
+pip install uv
+```
+
+2. Buat virtual environment
+```bash
+uv venv --python=python3.10
+```
+
+3. Aktifkan virtual environment
+```bash
+source .venv/bin/activate
+```
+
+**Catatan**
+
+Jika Anda menggunakan Windows, Anda mungkin perlu mengganti perintah di atas dengan `source .venv/Scripts/activate` atau `.venv/Scripts/activate`.
+
+Perlu diingat bahwa Anda harus mengaktifkan virtual environment setiap kali memulai sesi terminal baru. Misalnya, jika Anda me-restart terminal atau komputer dan ingin melanjutkan pekerjaan pada proyek keesokan harinya, cukup jalankan `source .venv/bin/activate` di folder proyek untuk mengaktifkan kembali virtual environment Anda.
+
+## Step 3: Instalasi Library Python
+
+Setelah mengaktifkan virtual environment Anda, Anda dapat menginstal paket Python menggunakan uv. Contohnya:
+
+```bash
+uv pip install packaging
+```
+
+Untuk menginstal semua paket yang diperlukan dari file requirements.txt (seperti yang ada di level teratas repositori GitHub ini), jalankan perintah berikut, dengan asumsi file berada di direktori yang sama dengan sesi terminal Anda:
+
+```bash
+uv pip install -U -r requirements.txt
+```
+
+Atau, instal dependencies terbaru langsung dari repositori:
+
+```bash
+uv pip install -U -r https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/refs/heads/main/requirements.txt
+```
