@@ -29,7 +29,7 @@ published: true
 - Ph.D. : Department of Electronics and Computer Engineering, National Taiwan University of Science and Technology
 
 # Research Interest
-Human-centered applications, healthcare technology, multimedia processing, computer vision
+Human-centered applications, healthcare technology, multimedia processing, computer vision, deep learning
 
 # Academic Society
 
@@ -60,12 +60,15 @@ Human-centered applications, healthcare technology, multimedia processing, compu
 - Simlitabmas PDP (2020) : Obstructive Sleep Apnea Monitoring System
 - ITERA Smart (2019) : Customer Satisfaction Camera
 
-# Community Service Projects
+# Notable Community Service Projects / Speakers / Seminars
 
-- Massive Action LPDP (2018)
-- Selekda Asean Skills Competition - Internet of Things - Kementerian Ketenagakerjaan (2019)
+- Speakers: IMWORK Symposium, Palembang - Indonesia (2024)
+- Speakers: Regional IE Research Congress, University of San Jose - Recoletos, Cebu City, Philippines (2023)
+- Participants: 39th Annual International Conference on the IEEE Engineering in Medicine and Biology Society, Sydney, Australia (2023)
 - UMKM Workshop : E-Commerce - Kementerian Koperasi, Usaha Kecil dan Menengah. (2020)
 - PPMLN Univ. Terbuka, Taiwan: Mencari Topik Karya Ilmiah (2022)
+- Selekda Asean Skills Competition - Internet of Things - Kementerian Ketenagakerjaan (2019)
+- Massive Action LPDP (2018)
 
 # Intellectual Property Rights
 
