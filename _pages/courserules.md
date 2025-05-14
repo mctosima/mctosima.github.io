@@ -68,7 +68,10 @@ Kontrak kuliah ini disusun dan disepakati oleh dosen dan mahasiswa yang diampu s
 7. Mahasiswa diperkenankan izin untuk pergi ke toilet, beribadah, menelepon, dan hal lainnya yang bersifat mendesak tanpa harus menginterupsi jalannya perkuliahan.
 8. Mahasiswa dipersilahkan untuk makan dan minum di kelas selagi tidak menimbulkan suara yang mengganggu jalannya perkuliahan.
 
-### 2.7. Lainnya
+### 2.7. Pemberian Bingkisan / Hadiah / Buah Tangan
+Tanpa mengurangi rasa hormat, dimohon untuk tidak memberikan bingkisan / hadiah / buah tangan kepada dosen pengampu. Hal ini bertujuan agar dosen pengampu dapat bersikap tidak subjektif dan meminimalisir bias serta konflik kepentingan. Hal ini juga berlaku untuk mahasiswa bimbingan akademik / mahasiswa bimbingan tugas akhir / dan mahasiswa aktif lainnya yang berinteraksi dengan MCT.
+
+### 2.8. Lainnya
 - Jika anda memiliki disabilitas yang menghambat berlangsungnya proses belajar mengajar, silahkan informasikan kendala anda ke email dosen
 - Mahasiswa yang mengalami kendala mental dan psikologis dimohon menghubungi dosen pengampu dan berkonsultasi dengan bimbingan konseling ITERA
 - Mahasiswa tidak diperkenankan menghubungi dosen melalui instagram/x/twitter/reddit/tiktok untuk hal-hal yang menyangkut perkuliahan.
