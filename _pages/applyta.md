@@ -13,3 +13,6 @@ published: true
 
 # Pengumuman Tambahan
 - Deadline: 7 Juni 2025, 23.59 WIB
+
+# Pengumuman Hasil Seleksi
+Pengumuman hasil seleksi akan diumumkan pada tanggal 10 Juni 2025, pukul 14.00 WIB melalui pada halaman ini
