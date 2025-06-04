@@ -39,6 +39,7 @@ Human-centered applications, healthcare technology, multimedia processing, compu
 ---
 
 # Publication
+- **M. C. T. Manullang**, A. Z. Rakhman, H. Tantriawan, and A. Setiawan, “Comparative Analysis of CNN, Transformers, and Traditional ML for Classifying Online Gambling Spam Comments in Indonesian”, JAIC, vol. 9, no. 3, pp. 592–602, Jun. 2025.
 - S. R. Tamariska, L. S.-J. Tsaih, and **M. C. T. Manullang**, “The impact of coloured noise on brainwave activity: Implications for indoor environment design,” Indoor Built Environ., May 2025.
 - **M. C. T. Manullang**, Y.-H. Lin, and N.-K. Chou, “A transformer based network for estimating blood pressure using facial videos,” IEEE Sens. J., 2024, doi: 10.1109/jsen.2024.3496115.
 - A. K. Rizkita, R. I. Kesuma, and **M. C. T. Manullang**, “Smart camera for visitor recording based on face recognition in automatic gates (case study: New normal protocols in Institut Teknologi Sumatera),” in 3RD CONFERENCE ON INNOVATION IN TECHNOLOGY AND ENGINEERING SCIENCE 2022 (CITES2022): Innovation in Technology and Science for New Era of Engineering Professionalism, AIP Publishing, 2024.
