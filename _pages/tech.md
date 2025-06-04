@@ -2,7 +2,7 @@
 title:
 layout: default
 permalink: /tech/
-published: true
+published: false
 ---
 
 # Hardware

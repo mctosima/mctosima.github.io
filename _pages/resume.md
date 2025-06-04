@@ -9,13 +9,13 @@ published: true
 
 # Resume
 
-> Hi, I am Martin. I graduated from [Electronics and Computer Engineering Department](https://www.ceecs.ntust.edu.tw/), [NTUST](https://ntust.edu.tw/). I'm also a faculty member of [Program Studi Teknik Informatika](http://if.itera.ac.id/), Institut Teknologi Sumatera ([ITERA](http://itera.ac.id/)), a state engineering university located in Lampung.
-> 
+> Hi, I am Martin. I'm a researcher and assistant professor at [Program Studi Teknik Informatika](http://if.itera.ac.id/), Institut Teknologi Sumatera ([ITERA](http://itera.ac.id/)), a state engineering university located in Lampung.
+>
 
 - **Full Name :** Martin Clinton Tosima Manullang, Ph.D.
 - **NIP.:** 19930109 201903 1 017
 - **NIDN.:** 0009019302
-- **E-Mail :** martin.manullang[at]if.itera.ac.id & martin.manullang@ieee.org
+- **E-Mail :** martin.manullang[at]if.itera.ac.id
 - **Scopus ID :** [57218935594](https://www.scopus.com/authid/detail.uri?authorId=57218935594)
 - **GScholar. :** [Click Here](https://scholar.google.co.id/citations?user=yGzxa7wAAAAJ&hl=en)
 - **Sinta ID. :** [6701069](https://sinta.ristekbrin.go.id/authors/detail?id=6701069&view=overview)
