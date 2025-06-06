@@ -16,3 +16,10 @@ published: true
 
 # Pengumuman Hasil Seleksi
 Pengumuman hasil seleksi akan diumumkan pada tanggal 10 Juni 2025, pukul 14.00 WIB melalui pada halaman ini
+
+| No  | Judul yang diterima |
+| --- | ------------------- |
+| 1   | ...                 |
+| 2   | ...                 |
+| 3   | ...                 |
+|     |                     |
