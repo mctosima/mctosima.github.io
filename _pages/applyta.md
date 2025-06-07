@@ -12,7 +12,7 @@ published: true
 3. Form Pendaftaran: [Klik Disini](https://docs.google.com/forms/d/e/1FAIpQLScsOv5uM-U7TI83xORtqSyIiRNcklMB2-RfnlyPCLMzI1uo7Q/viewform?usp=dialog)
 
 # Pengumuman Tambahan
-- Deadline: 7 Juni 2025, 23.59 WIB
+- Deadline: ~~7 Juni 2025~~ 8 Juni 2025, 23.59 WIB (Perpanjangan Waktu)
 
 # Pengumuman Hasil Seleksi
 Pengumuman hasil seleksi akan diumumkan pada tanggal 10 Juni 2025, pukul 14.00 WIB melalui pada halaman ini
