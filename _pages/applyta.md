@@ -50,5 +50,6 @@ Pertama-tama, harus saya akui, sangat sulit untuk memilih dari 23 proposal yang 
 - Jika anda tidak diterima,
     - Kemungkinannya adalah karena: (1) Saya sendiri tidak mampu mengerjakan topik yang anda ajukan, (2) Topik anda sangat kompleks dan kemungkinan besar tidak akan selesai dalam waktu 1 semester. Sejauh ini semua topik yang diajukan tidak ada yang tidak menarik (semuanya menarik), jadi jangan berkecil hati.
     - Anda tetap boleh mengajukan topik yang lain kepada saya melalui pendaftaran TA resmi dari prodi IF.
+- Jika ada mahasiswa lain yang tidak ada di waiting list, tetapi ingin mengajukan topik TA kepada saya, silahkan ajukan melalui pendaftaran TA resmi dari prodi IF. Saya akan mempertimbangkan untuk menerima anda jika slot saya masih ada.
 
 Terima Kasih atas partisipasi anda dalam pendaftaran TA ini. Apresiasi saya kepada anda yang telah mengajukan topik. Saya berharap kita dapat bekerja sama dalam menyelesaikan tugas akhir ini.
